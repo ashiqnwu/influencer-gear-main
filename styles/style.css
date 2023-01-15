@@ -63,19 +63,15 @@ main {
 }
 
 .influencer-image {
-    border-radius: 23em;
     width: 475px;
     height: 475px;
-    border: 3px solid #F1E4FF;
-    box-shadow: 1px 1px 1px #f1e4ff, inset 1px 1px 40px 30px #f1e4ff;
+    background-image: url(../images/Circle\ design.svg);
 }
 
 .influencer img {
     width: 440px;
     height: 414px;
     margin-top: 30px;
-    box-shadow: 15px 0px 1px #f1e4ff, inset 10px 10px 11px -70px #f1e4ff;
-    border-radius: 23em;
 }
 
 /*---------- Multiple-icons------------
@@ -226,54 +222,57 @@ main {
     .influencers {
         flex-direction: column-reverse;
         align-items: center;
+        margin-top: 22px;
     }
 
     .influencer {
         width: 100%;
         align-items: center;
-
         text-align: center;
     }
 
     .influencer-image {
-        border-radius: none;
         width: 257px;
         height: 257px;
-        border: 1px solid #F1E4FF;
-        /* box-shadow: 1px 1px 1px #f1e4ff, inset 1px 1px 40px 30px #f1e4ff; */
-        margin: 51px 33px 16px 22px;
+        background-size: 257px;
     }
 
     .influencer-image img {
+        margin: 51px 0 0 22px;
         width: 202px;
         height: 190px;
 
+    }
+    .influencer-title h1{
+        margin: 0;
     }
 
     .multiple-icon {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
         column-gap: 5px;
         row-gap: 5px;
         justify-items: center;
     }
-    .multiple-icon img{
+
+    .multiple-icon img {
         width: 51px;
         height: 16px;
     }
 
-    .collection{
+    .collection {
         display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-    row-gap: 2em;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        row-gap: 2em;
     }
-    
-    .collection-see-more{
+
+    .collection-see-more {
         text-align: center;
         margin-right: 0;
     }
+
     .products {
         margin: 0 0;
         row-gap: 30px;
